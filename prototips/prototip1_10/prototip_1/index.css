@@ -1,6 +1,8 @@
 body{ /*Un body con un fondo de color blanco*/
-    background-color: #FFFFFF   ;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
 }
 
 h1{
@@ -67,4 +69,12 @@ p{ /*hacer el botón y ponerlo en el medio*/
 a{ /*Quitar decoración del enlace y ponerle color blanco*/
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.fondo{
+    background-color: #FFFFFF;
+}
+
+.margin-h{
+    margin: 0 64px;
 }
