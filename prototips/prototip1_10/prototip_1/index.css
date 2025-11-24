@@ -3,7 +3,6 @@ body{ /*Un body con un fondo de color blanco*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 h1{
     font-size: 64px;
 }
@@ -46,4 +45,21 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.gap{
+    gap: 16px;
+}
+
+.margin-top{
+    margin-top: 32px;
+}
+
+.margin-top2{
+    margin-top: 16px;
+    margin-bottom: 32px;
 }
