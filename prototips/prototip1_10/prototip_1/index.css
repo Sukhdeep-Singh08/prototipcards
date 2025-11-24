@@ -4,39 +4,39 @@ body{ /*Un body con un fondo de color blanco*/
 }
 
 h1{
-    font-size: 64px;
+    font-size: 64px; /*Tamaño H1*/
 }
 
-h2{
+h2{ /*Color y quitar negrita*/
     color: #252525CC;
     font-weight: normal;
 }
 
-.text-center{
+.text-center{ /*Poner cualquier objeto en el medio*/
    display: flex;
    justify-content: center; 
 }
 
-.text-align{
+.text-align{ /*Para alinear el tamaño*/
     text-align: center;
 }
 
-.width1{
+.width1{ /*Width del h1*/
     width: 610px;
     height: 145px;
 }
 
-.width2{
+.width2{ /*Width del h2*/
     width: 607px;
     height: 108px;
 }
 
-.width3{
+.width3{ /*Width del boton*/
     width: 158px;
     height: 54px;
 }
 
-p{
+p{ /*hacer el botón y ponerlo en el medio*/
     color: #FFFFFF;
     background-color: #252525;
     border-radius: 16px;
@@ -47,19 +47,24 @@ p{
     justify-content: center;
 }
 
-.flex{
+.flex{ /*Para poner flex*/
     display: flex;
 }
 
-.gap{
+.gap{ /*Espacio entre items de 16px*/
     gap: 16px;
 }
 
-.margin-top{
+.margin-top{ /*Margen entre las imagenes i el boton*/
     margin-top: 32px;
 }
 
-.margin-top2{
+.margin-top2{ /*Margen entre las imagenes i debajo de las 4 ultimas imagenes.*/
     margin-top: 16px;
     margin-bottom: 32px;
+}
+
+a{ /*Quitar decoración del enlace y ponerle color blanco*/
+    text-decoration: none;
+    color: #FFFFFF;
 }
