@@ -1,10 +1,16 @@
 body{ /*Un body con un fondo de color blanco*/
     background-color: #FFFFFF   ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 h1{
     font-size: 64px;
+}
+
+h2{
+    color: #252525CC;
+    font-weight: normal;
 }
 
 .text-center{
@@ -14,5 +20,30 @@ h1{
 
 .text-align{
     text-align: center;
-    line-height: 80px;
+}
+
+.width1{
+    width: 610px;
+    height: 145px;
+}
+
+.width2{
+    width: 607px;
+    height: 108px;
+}
+
+.width3{
+    width: 158px;
+    height: 54px;
+}
+
+p{
+    color: #FFFFFF;
+    background-color: #252525;
+    border-radius: 16px;
+    width: 158px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
