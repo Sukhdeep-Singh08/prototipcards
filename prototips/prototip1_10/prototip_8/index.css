@@ -10,3 +10,71 @@
         width: 1440px;
         height: 926px;
     }
+
+    .imagen{
+        position: relative;
+        width: 656px;
+        height: 861.5px;
+        margin-left: 64px;
+        margin-top: 64px;
+    }
+
+    .señor{
+        position: absolute;
+        top: 66px;
+        content: '';
+        width: 618.33px;
+        height: 795.5px;
+    }
+
+    .puntos{
+        position: absolute;
+        content: '';
+        width: 224px;
+        height: 224px;
+        top: 0px;
+    }
+
+    .puntos2{
+        position: absolute;
+        content: '';
+        width: 224px;
+        height: 224px;
+        bottom: 0;
+        right: 0;
+        bottom: 70px;
+    }
+
+    .texto{
+        width: 487px;
+        height: 674px;
+        margin-top: 70px;
+        margin-left: 134px;
+        color: #FFFFFF;
+    }
+
+    h1{
+        font-size: 88px;
+    }
+
+    p{
+        font-size: 24px;
+        font-weight: lighter;
+        line-height: 32px;
+        color: #ffffff8a;
+    }
+
+    h2{
+        color: #000000;
+        background-color: #E5B94B;
+        width: 231px;
+        height: 82px;
+        border-radius: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex{
+        display: flex;
+    }
