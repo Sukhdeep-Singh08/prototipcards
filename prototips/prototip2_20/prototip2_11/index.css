@@ -4,3 +4,99 @@ body{ /*Un body con un fondo de color blanco*/
     display: flex;
     justify-content: center;
 }
+
+main{
+    background-color: #FFFFFF;
+    width: 1444px;
+    height: 1024px;
+}
+
+.text{
+    width: 637px;
+    height: 414px;
+    margin-left: 65px;
+    margin-top: 124px;
+}
+
+h1{
+    font-size: 72px;
+    width: 607px;
+    height: 176px;
+    line-height: 88px;
+    color: #252525;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 400;
+    color: #252525CC;
+    width: 585px;
+    height: 108px;
+}
+
+h3{
+    width: 182px;
+    height: 66px;
+    background-color: #252525;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.imagenes{
+    width: 547.67px;
+    height: 518.66px;
+    position: relative;
+    margin-top: 92px;
+    margin-left: 130px;
+}
+
+.flex{
+    display: flex;
+}
+
+.img1{
+    position: absolute;
+    left: 0;
+}
+
+.img2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.list{
+    width: 1312px;
+    height: 298px;
+    background-color: #252525;
+    border-radius: 40px;
+    margin-left: 64px;
+    margin-top: 64px;
+}
+
+.list-item{
+    width: 1184px;
+    padding: 58px;
+    gap: 128px;
+}
+
+.list-text{
+    width: 316px;;
+}
+
+h4{
+    width: 316px;   
+    color: #FFFFFF;
+    font-size: 32px;
+    margin: 10px 0px;
+    margin-bottom: 40px;
+}
+
+p{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
