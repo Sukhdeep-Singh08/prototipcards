@@ -1,0 +1,44 @@
+body{ /*Un body con un fondo de color blanco*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.text{
+    width: 637px;
+    height: 477px;
+    margin-left: 64px;
+    margin-top: 64px;
+}
+
+h1{
+    width: 437px;
+    height: 264px;
+    font-size: 72px;
+}
+
+h2{
+    font-size: 24px;
+    color: #252525CC;
+    width: 540px;
+    height: 99px;
+}
+
+h3{
+    color: #FFFFFF;
+    background-color: #252525;
+    width: 182px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 36px;
+}
