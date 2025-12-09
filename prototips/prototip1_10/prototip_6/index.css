@@ -121,41 +121,40 @@ a{
 }
 
 .foto{
-    padding-top: 152.24px;
-    padding-left: 130px;
+    top: 152.24px;
+    left: 130px;
 }
 
 .stroke1{
-    padding-top: 93px;
-    padding-left: 68px;
+    top: 93px;
+    left: 68px;
 }
 
 .stroke{
-    padding-top: 364.19px;
-    padding-left: 340px;
+    top: 364.19px;
+    left: 340px;
 }
 
 .star1{
-    padding-top: 62px;
-    padding-right: 100px;
+    top: 62px;
 }
 
 .tag{
-    padding-top: 198px;
-    padding-left: 399px;
+    top: 198px;
+    left: 399px;
 }
 
 .tag1{
-    padding-top: 681px;
-    padding-left: 24px;
+    top: 681px;
+    left: 24px;
 }
 
 .star2{
-    padding-top: 221px;
-    padding-left: 164px;
+    top: 221px;
+    left: 164px;
 }
 
 .star{
-    padding-top: 624.27px;
+    top: 624.27px;
     left: 488px;
 }
