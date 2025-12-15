@@ -1,0 +1,106 @@
+body{ /*Un body con un fondo de color blanco*/
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 1440px;
+    height: 1024px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+}
+
+h2{
+    width: 434px;
+    height: 32px;
+    font-size: 24px;
+    color: #25252573;
+}
+
+p{
+    color: #252525CC;
+    width: 434px;
+    height: 64px;
+    font-size: 24px;
+}
+
+.imgleft{
+    margin-left: 64px;
+    margin-top: 99px;
+}
+
+.explosion{
+    margin-left: 19.88px;
+    margin-top: 17px;
+    width: 179.91px;
+    height: 176.57;
+}
+
+h1{
+    font-size: 112px;
+    width: 337px;
+    height: 324px;
+    font-weight: 400;
+    line-height: 108px;
+    text-align: center;
+    margin: 0;
+}
+
+.h1{
+    position: absolute;
+    top: 0;
+}
+
+.text{
+    top: 261px;
+    left: 561.1px;
+    width: 336.99px;
+    height: 714px;
+    position: absolute;
+}
+
+.centraltext{
+    width: 306px;
+    height: 128;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 17px;
+}
+.p{
+    position: absolute;
+    top: 372px;
+}
+
+h3{
+    width: 182px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    color: #FFFFFF;
+    border-radius: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.button{
+    left: 71px;
+    position: absolute;
+    top: 548px;
+}
+
+.gradient{
+    position: absolute;
+    
+}
+
+.relative{
+    position: relative;
+    content: '';
+    width: 100%;
+    height: 100%;
+}
