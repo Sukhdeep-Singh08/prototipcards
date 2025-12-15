@@ -16,12 +16,13 @@ main{
     width: 637px;
     height: 477px;
     margin-left: 64px;
-    margin-top: 64px;
+    top: 18px;
+    position: absolute;
 }
+
 
 h1{
     width: 437px;
-    height: 264px;
     font-size: 72px;
 }
 
@@ -29,7 +30,8 @@ h2{
     font-size: 24px;
     color: #252525CC;
     width: 540px;
-    height: 99px;
+    font-weight: 400;
+    margin-bottom: 24px;
 }
 
 h3{
@@ -41,4 +43,83 @@ h3{
     justify-content: center;
     align-items: center;
     border-radius: 36px;
+}
+
+.imatges{
+    content: '';
+    height: 100%;
+}
+
+
+.spiral{
+    left: 0;
+    position: absolute;
+    left: 133px;
+    top: 674px;
+}
+
+.olas{
+    position: absolute;
+    left: 498px;
+    top: 91px;
+}
+
+.img3{
+    position: absolute;
+    left: 1063px;
+    top: 67px;
+}
+
+.img2{
+    position: absolute;
+    left: 723px;
+    top: 282px;
+}
+
+.img1{
+    position: absolute;
+    left: 383px;
+    top: 524px;  
+}
+
+.estrella2{
+    position: absolute;
+    left: 1095px;
+    top: 541px;
+}
+.estrella1{
+    position: absolute;
+    left: 596px;
+    top: 388px;;
+}
+
+.flex{
+    display: flex;
+}
+
+.card{
+    position: absolute;
+    left: 708px;
+    top: 838px;
+}
+
+p{
+    width: 516px;
+    height: 90px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #252525CC;
+}
+
+.gap{
+    gap: 24px;
+}
+
+.card img{
+    padding-top: 21px;
+    padding-left: 24px;
+}
+
+.card p{
+    padding-top: 10px;
 }
