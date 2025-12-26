@@ -1,0 +1,12 @@
+body{ /*Un body con un fondo de color blanco*/
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background: linear-gradient(to bottom, #09212C, #043E49);
+    width: 1440px;
+    height: 1024px;
+}
