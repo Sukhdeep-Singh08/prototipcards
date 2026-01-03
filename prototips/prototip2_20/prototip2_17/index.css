@@ -8,7 +8,7 @@ body{ /*Un body con un fondo de color blanco*/
 main{
     width: 1440px;
     height: 1475px;
-    background-color: #FFFFFF;
+    background-color: #F2F2F2;
     position: relative;
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@ main{
 section{
     width: 695px;
     height: 297px;
-    margin-top: 16px;
+    margin-top: 32px;
 }
 
 h1{
@@ -61,4 +61,45 @@ span{
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+}
+
+.image{
+    width: 1332px;
+    height: 526px;
+    margin-top: 193px;
+}
+
+.bottomimg{
+    display: flex;
+    width: 1313px;
+    height: 344px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.list{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 1048px;
+    height: 191px;
+    border-radius: 48px;
+    top: 437px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.listitem{
+    width: 176px;
+    height: 111px;
+}
+
+h4{
+    font-size: 24px;
+    border-bottom: 5px solid black;
+    width: 71px;
+    height: 33px;
+    padding-bottom: 15px;
+    margin: 0;
 }
