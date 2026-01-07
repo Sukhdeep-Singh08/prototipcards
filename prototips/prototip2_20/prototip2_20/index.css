@@ -1,0 +1,126 @@
+body{ /*Un body con un fondo de color blanco*/
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif, serif;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 1345px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    width: 464px;
+    height: 498px;
+    margin-top: 157px;
+    margin-left: 126px;
+}
+
+h1{
+    width: 404px;
+    height: 240px;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.description{
+    width: 412px;
+    height: 128px;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    color: #363031;
+}
+
+span{
+    display: block;
+}
+
+.button{
+    background-color: #A36A4F;
+    border-radius: 36px;
+    width: 179px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.flex{
+    display: flex;
+}
+
+.imagenes{
+    width: 592.48px;
+    height: 592.48px;
+    margin-left: 140px;
+    margin-top: 64px;
+    position: relative;
+}
+
+.secondcoffee{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.firstcoffee{
+    position: absolute;
+    top: 0;
+}
+
+.imgbottom{
+    width: 1440px;
+    height: 472px;
+    background-color: #363032;
+    margin-top: 124px;
+}
+
+.gallery{
+    width: 1314px;
+    height: 286px;
+    padding-top: 138px;
+    margin-left: 63px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-gallery{
+    width: 186px;
+    height: 286px;
+    color: #FFFFFF;
+}
+
+.item-gallery img{
+    width: 186px;
+    height: 246px;
+}
+
+.item-gallery p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list{
+    background-color: #ECDAC4;
+    border-radius: 80px;
+    width: 878px;
+    height: 188px;
+    position: absolute;
+    top: 702px;
+    left: 281px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
