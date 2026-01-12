@@ -41,7 +41,7 @@ footer{ /*Ponemos que este en el centro*/
 
 
 .gallery{ /*Que cada div de la galeria tenga su borde*/
-    border: 1px solid #000000; /*Le ponemos borde al div*/
+    border: 1px solid #00000060; /*Le ponemos borde al div*/
     border-radius: 6px; /*Hacer que los bordes sean mas redondos*/
     padding: 1rem; /*Un espacio interior*/
     background-color: #FFFFFF;
@@ -56,7 +56,7 @@ img{ /*hacer que el tamaño de las imagenes tengan un tamaño maximo de 14rem*/
     max-height: 10rem;
     min-width: 14rem;
     min-height: 10rem; /*Ponerle max i min width aparte del height para que se vean iguales entre iguales los tamaños de las imagenes.*/
-    border: 1px solid #000000;
+    border: 1px solid #00000060;
 }
 
 .wrap{
